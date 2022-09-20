@@ -1,3 +1,4 @@
+QUESTION 1:
 mysql> use student;
 Database changed
 mysql> create table student(Regno int(3),Name char(15),gender char(1),Dob int(10),mobileno int(10),city char(10));
