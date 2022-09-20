@@ -1,6 +1,6 @@
 # CSA0519-DBMS
 ## EXPERIMENT 1
-[Experiment 1 queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%201)
+[Experiment_1_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%201)
 
 Exp1 q(1)![image](https://user-images.githubusercontent.com/113974992/191305549-90c6b0e5-5cf2-4e25-a894-d226b7321586.png)
 
@@ -17,7 +17,7 @@ Exp1 q(5)
    ![image](https://user-images.githubusercontent.com/113974992/191309210-e07f2fe6-40f6-42a2-abf3-0f8e48611623.png)
 
 ## EXPERIMENT 2
-[Experiment 2 queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%202)
+[Experiment_2_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%202)
 
 Exp2 q(1) ![image](https://user-images.githubusercontent.com/113974992/191310814-96876efa-08e8-481c-a428-3b5e6502bbb7.png)
 
