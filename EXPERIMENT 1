@@ -16,3 +16,85 @@ mysql> desc student;
 | city     | char(10) | YES  |     | NULL    |       |
 +----------+----------+------+-----+---------+-------+
 6 rows in set (0.01 sec)
+
+QUESTION 2:
+mysql> create table faculty(facno int(3),facname char(15),gender char(1),dob int(10),mobileno int(10),doj int(10));
+Query OK, 0 rows affected, 4 warnings (0.02 sec)
+
+mysql> desc faculty;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| facno    | int      | YES  |     | NULL    |       |
+| facname  | char(15) | YES  |     | NULL    |       |
+| gender   | char(1)  | YES  |     | NULL    |       |
+| dob      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| doj      | int      | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+QUESTION 3:
+mysql> create table department(deptno int(10),deptname char(10),deptead char(10));
+Query OK, 0 rows affected, 1 warning (0.03 sec)
+
+mysql> desc department;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| deptno   | int      | YES  |     | NULL    |       |
+| deptname | char(10) | YES  |     | NULL    |       |
+| deptead  | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+QUESTION 4:
+mysql> create table course(courseno int(3),coursedesc char(15),coursetype char(1),semno int(10),hallno int(10),facno int(10));
+Query OK, 0 rows affected, 4 warnings (0.02 sec)
+
+mysql> desc course;
++------------+----------+------+-----+---------+-------+
+| Field      | Type     | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| courseno   | int      | YES  |     | NULL    |       |
+| coursedesc | char(15) | YES  |     | NULL    |       |
+| coursetype | char(1)  | YES  |     | NULL    |       |
+| semno      | int      | YES  |     | NULL    |       |
+| hallno     | int      | YES  |     | NULL    |       |
+| facno      | int      | YES  |     | NULL    |       |
++------------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+QUESTION 5:
+mysql> use faculty;
+Database changed
+mysql> desc faculty;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| facno    | int      | YES  |     | NULL    |       |
+| facname  | char(15) | YES  |     | NULL    |       |
+| gender   | char(1)  | YES  |     | NULL    |       |
+| dob      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| doj      | int      | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> alter table faculty add dept char(10);
+Query OK, 0 rows affected (0.01 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc faculty;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| facno    | int      | YES  |     | NULL    |       |
+| facname  | char(15) | YES  |     | NULL    |       |
+| gender   | char(1)  | YES  |     | NULL    |       |
+| dob      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| doj      | int      | YES  |     | NULL    |       |
+| dept     | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
