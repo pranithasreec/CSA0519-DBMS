@@ -13,6 +13,7 @@ Exp1 q(3)
 Exp1 q(4)![image](https://user-images.githubusercontent.com/113974992/191308496-3c7621ab-895f-47c6-b6bd-1c594b8c801b.png)
 
 Exp1 q(5) 
+
    ![image](https://user-images.githubusercontent.com/113974992/191309210-e07f2fe6-40f6-42a2-abf3-0f8e48611623.png)
 
 ## EXPERIMENT 2
