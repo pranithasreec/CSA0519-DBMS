@@ -91,3 +91,14 @@ exp5 q(6) ![image](https://user-images.githubusercontent.com/113974992/191497518
 exp5 q(7) ![image](https://user-images.githubusercontent.com/113974992/191497560-b0095dca-21a0-4729-bf92-30125aebf545.png)
 
 ##EXPERIMENT 6
+[Experiment_6_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%206)
+
+[group by having]
+exp6 q(1) ![image](https://user-images.githubusercontent.com/113974992/191498214-55a8c967-d977-492a-bf42-43a3815037dd.png)
+
+exp6 q(2) ![image](https://user-images.githubusercontent.com/113974992/191498242-d771dc92-289c-4e12-87c2-1b64cda135a7.png)
+
+[ordered by]
+exp6 q(1) ![image](https://user-images.githubusercontent.com/113974992/191498641-20459bf5-5b72-44b4-ab56-d8e0758259d3.png)
+exp6 q(2) ![image](https://user-images.githubusercontent.com/113974992/191498772-478127e6-69ea-474e-b7c6-3c345deea714.png)
+
