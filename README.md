@@ -108,10 +108,5 @@ exp6 q(2) ![image](https://user-images.githubusercontent.com/113974992/191498772
 ## EXPERIMENT 7
 [Experiment_7_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%207)
 
-exp7 q(1) ![image](https://user-images.githubusercontent.com/113974992/191499617-9221ccaa-eeca-4f5e-97bf-ea89dcd5ec3e.png)
+![image](https://user-images.githubusercontent.com/113974992/191500720-729c2f1e-d1a6-43a4-a8b5-b57e0190e12b.png)
 
-exp7 q(2) ![image](https://user-images.githubusercontent.com/113974992/191499654-08e0754d-76ea-4422-b888-8e5634cacf22.png)
-
-exp7 q(3) ![image](https://user-images.githubusercontent.com/113974992/191499690-b531585e-92be-4804-a747-195e0666ffe3.png)
-
-exp7 q(4) ![image](https://user-images.githubusercontent.com/113974992/191499722-7851e5b2-0044-45e2-93e7-b90a7a15cbf1.png)
