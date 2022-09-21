@@ -1,0 +1,194 @@
+QUESTION 1:
+mysql> use student;
+Database changed
+mysql> insert into student values(192111178,'pranitha','f',12052003,562479278,'chennai');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values(192111143,'omesa','f',08092003,638271982,'bangalore');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> insert into student values(192111070,'ramu','m',16042004,928374654,'amaravathi');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from student;
++-----------+----------+--------+----------+-----------+------------+
+| Regno     | Name     | gender | Dob      | mobileno  | city       |
++-----------+----------+--------+----------+-----------+------------+
+| 192111070 | ramu     | m      | 16042004 | 928374654 | amaravathi |
+| 192111143 | omesa    | f      |  8092003 | 638271982 | bangalore  |
+| 192111178 | pranitha | f      | 12052003 | 562479278 | chennai    |
++-----------+----------+--------+----------+-----------+------------+
+3 rows in set (0.00 sec)
+
+mysql> use faculty;
+Database changed
+mysql> desc faculty;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| facno    | int      | NO   | PRI | NULL    |       |
+| facname  | char(15) | YES  |     | NULL    |       |
+| gender   | char(1)  | YES  |     | NULL    |       |
+| dob      | int      | YES  |     | NULL    |       |
+| mobileno | int      | YES  |     | NULL    |       |
+| doj      | int      | YES  |     | NULL    |       |
+| dept     | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> insert into faculty values(1,'siva','m',1995,452486541,2019,'cse');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from faculty;
++-------+---------+--------+------+-----------+------+------+
+| facno | facname | gender | dob  | mobileno  | doj  | dept |
++-------+---------+--------+------+-----------+------+------+
+|     1 | siva    | m      | 1995 | 452486541 | 2019 | cse  |
++-------+---------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+
+mysql> use department;
+Database changed
+mysql> desc department;
++----------+----------+------+-----+---------+-------+
+| Field    | Type     | Null | Key | Default | Extra |
++----------+----------+------+-----+---------+-------+
+| deptno   | int      | NO   | PRI | NULL    |       |
+| deptname | char(10) | YES  |     | NULL    |       |
+| deptead  | char(10) | YES  |     | NULL    |       |
++----------+----------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> insert into department values(45,'AI','suresh');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> select * from department;
++--------+----------+---------+
+| deptno | deptname | deptead |
++--------+----------+---------+
+|     45 | AI       | suresh  |
++--------+----------+---------+
+1 row in set (0.00 sec)
+
+mysql> use course;
+Database changed
+mysql> desc course;
++------------+----------+------+-----+---------+-------+
+| Field      | Type     | Null | Key | Default | Extra |
++------------+----------+------+-----+---------+-------+
+| courseno   | int      | NO   | PRI | NULL    |       |
+| coursedesc | char(15) | YES  |     | NULL    |       |
+| coursetype | char(1)  | YES  |     | NULL    |       |
+| semno      | int      | YES  |     | NULL    |       |
+| hallno     | int      | YES  |     | NULL    |       |
+| facno      | int      | YES  |     | NULL    |       |
++------------+----------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> insert into course values(2,'prgm','ug',4,3098,2345);
+ERROR 1406 (22001): Data too long for column 'coursetype' at row 1
+mysql> insert into course values(2,'prgm','u',4,3098,2345);
+Query OK, 1 row affected (0.00 sec)
+
+mysql> select * from course;
++----------+------------+------------+-------+--------+-------+
+| courseno | coursedesc | coursetype | semno | hallno | facno |
++----------+------------+------------+-------+--------+-------+
+|        2 | prgm       | u          |     4 |   3098 |  2345 |
++----------+------------+------------+-------+--------+-------+
+1 row in set (0.00 sec)
+
+QUESTION 2:
+
+mysql> select * from student;
++-----------+----------+--------+----------+-----------+------------+
+| Regno     | Name     | gender | Dob      | mobileno  | city       |
++-----------+----------+--------+----------+-----------+------------+
+| 192111070 | ramu     | m      | 16042004 | 928374654 | amaravathi |
+| 192111143 | omesa    | f      |  8092003 | 638271982 | bangalore  |
+| 192111178 | pranitha | f      | 12052003 | 562479278 | chennai    |
++-----------+----------+--------+----------+-----------+------------+
+3 rows in set (0.00 sec)
+
+mysql> update student set regno=191711342 where name='ramu';
+Query OK, 1 row affected (0.01 sec)
+Rows matched: 1  Changed: 1  Warnings: 0
+
+mysql> select * from student;
++-----------+----------+--------+----------+-----------+------------+
+| Regno     | Name     | gender | Dob      | mobileno  | city       |
++-----------+----------+--------+----------+-----------+------------+
+| 191711342 | ramu     | m      | 16042004 | 928374654 | amaravathi |
+| 192111143 | omesa    | f      |  8092003 | 638271982 | bangalore  |
+| 192111178 | pranitha | f      | 12052003 | 562479278 | chennai    |
++-----------+----------+--------+----------+-----------+------------+
+3 rows in set (0.00 sec)
+
+QUESTION 3:
+
+mysql> delete from faculty where facname='ramu';
+Query OK, 0 rows affected (0.00 sec)
+
+QUESTION 4:
+mysql> select * from faculty;
++-------+---------+--------+------+-----------+------+------+
+| facno | facname | gender | dob  | mobileno  | doj  | dept |
++-------+---------+--------+------+-----------+------+------+
+|     1 | siva    | m      | 1995 | 452486541 | 2019 | cse  |
++-------+---------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+
+QUESTION 5:
+mysql> delete from faculty where facno='2';
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select * from faculty;
++-------+---------+--------+------+-----------+------+------+
+| facno | facname | gender | dob  | mobileno  | doj  | dept |
++-------+---------+--------+------+-----------+------+------+
+|     1 | siva    | m      | 1995 | 452486541 | 2019 | cse  |
++-------+---------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+
+QUESTION 6:
+mysql> use student;
+Database changed
+mysql> select * from student;
++-----------+----------+--------+----------+-----------+------------+
+| Regno     | Name     | gender | Dob      | mobileno  | city       |
++-----------+----------+--------+----------+-----------+------------+
+| 191711342 | ramu     | m      | 16042004 | 928374654 | amaravathi |
+| 192111143 | omesa    | f      |  8092003 | 638271982 | bangalore  |
+| 192111178 | pranitha | f      | 12052003 | 562479278 | chennai    |
++-----------+----------+--------+----------+-----------+------------+
+3 rows in set (0.00 sec)
+
+mysql> use faculty;
+Database changed
+mysql> select * from faculty;
++-------+---------+--------+------+-----------+------+------+
+| facno | facname | gender | dob  | mobileno  | doj  | dept |
++-------+---------+--------+------+-----------+------+------+
+|     1 | siva    | m      | 1995 | 452486541 | 2019 | cse  |
++-------+---------+--------+------+-----------+------+------+
+1 row in set (0.00 sec)
+
+mysql> use course;
+Database changed
+mysql> select * from course;
++----------+------------+------------+-------+--------+-------+
+| courseno | coursedesc | coursetype | semno | hallno | facno |
++----------+------------+------------+-------+--------+-------+
+|        2 | prgm       | u          |     4 |   3098 |  2345 |
++----------+------------+------------+-------+--------+-------+
+1 row in set (0.00 sec)
+
+mysql> use department;
+Database changed
+mysql> select * from department;
++--------+----------+---------+
+| deptno | deptname | deptead |
++--------+----------+---------+
+|     45 | AI       | suresh  |
++--------+----------+---------+
+1 row in set (0.00 sec)
