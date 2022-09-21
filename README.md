@@ -110,3 +110,6 @@ exp6 q(2) ![image](https://user-images.githubusercontent.com/113974992/191498772
 
 ![image](https://user-images.githubusercontent.com/113974992/191500720-729c2f1e-d1a6-43a4-a8b5-b57e0190e12b.png)
 
+## EXPERIMENT 8
+[Experiment_8_queries](
+
