@@ -52,6 +52,7 @@ exp3 q(6)
       ![image](https://user-images.githubusercontent.com/113974992/191491164-059960ea-ea1d-4a59-b542-791bac54bd3c.png)
 
 ## EXPERIMENT 4
+[Experiment_4_queries](
 exp4 q(1) ![image](https://user-images.githubusercontent.com/113974992/191494683-6770e6e2-080d-4580-8898-e578cd9e5687.png)
 exp4 q(2) ![image](https://user-images.githubusercontent.com/113974992/191494707-d7179c8c-2e63-4d5d-9818-00bf9ff4ede9.png)
 exp4 q(3) ![image](https://user-images.githubusercontent.com/113974992/191494735-68cc9944-9c47-4941-a34e-dd48838e98c3.png)
