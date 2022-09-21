@@ -124,6 +124,13 @@ exp8 q(3)![image](https://user-images.githubusercontent.com/113974992/191504194-
 
 exp9 q(1)
 ![image](https://user-images.githubusercontent.com/113974992/191508533-4a0046c9-cfa2-4f24-96b4-3590a260dd3b.png)
+
 ![image](https://user-images.githubusercontent.com/113974992/191508604-d5e6c546-4951-47bf-a576-8edb170a8fa8.png)
+
 ![image](https://user-images.githubusercontent.com/113974992/191508737-07f9d542-a340-4838-881f-8a7177f99951.png)
+
+## EXPERIMENT 10
+[Experiment_10_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%2010)
+
+exp10 q(1) ![image](https://user-images.githubusercontent.com/113974992/191511910-ad026ae1-ec81-4de6-8c94-cdc719c9f030.png)
 
