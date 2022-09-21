@@ -119,4 +119,5 @@ exp8 q(2)![image](https://user-images.githubusercontent.com/113974992/191504132-
 
 exp8 q(3)![image](https://user-images.githubusercontent.com/113974992/191504194-6006a7e7-09d4-4efc-a70d-3385d7cbf2aa.png)
 
-
+## EXPERIMENT 9
+[Experiment_9_queries](
