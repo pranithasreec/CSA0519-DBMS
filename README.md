@@ -33,6 +33,7 @@ Exp2 q(5) ![image](https://user-images.githubusercontent.com/113974992/191311353
 [Experiment_3_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%203)
 
 exp3 q(1) ![image](https://user-images.githubusercontent.com/113974992/191490737-a17af74d-bffe-42a2-b1ad-62d3f4ec06ff.png)
+
 ![image](https://user-images.githubusercontent.com/113974992/191490861-6d762b47-c040-41f9-bde0-ab1f76830561.png)
 
 exp3 q(2) ![image](https://user-images.githubusercontent.com/113974992/191490922-53019e70-8dc3-45ca-8ffd-98bf9cb2865f.png)
