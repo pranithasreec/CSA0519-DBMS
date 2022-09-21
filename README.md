@@ -89,3 +89,5 @@ exp5 q(5) ![image](https://user-images.githubusercontent.com/113974992/191497473
 exp5 q(6) ![image](https://user-images.githubusercontent.com/113974992/191497518-32cfb92f-fdec-44a8-bf87-973a645859d5.png)
 
 exp5 q(7) ![image](https://user-images.githubusercontent.com/113974992/191497560-b0095dca-21a0-4729-bf92-30125aebf545.png)
+
+##EXPERIMENT 6
