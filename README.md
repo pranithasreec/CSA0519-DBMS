@@ -66,7 +66,26 @@ exp4 q(5) ![image](https://user-images.githubusercontent.com/113974992/191494784
 
 exp4 q(6) ![image](https://user-images.githubusercontent.com/113974992/191494812-6386b9ee-a7aa-406f-9597-908ac1bb50f5.png)
 
+## EXPERIMENT 5
+[Experiment_5_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%205)
 
+ IN & BETWEEN 
+ exp5 q(1) ![image](https://user-images.githubusercontent.com/113974992/191496972-6e001003-89c5-48bf-9a7c-4f0fcda9b604.png)
 
+ exp5 q(2) ![image](https://user-images.githubusercontent.com/113974992/191497020-3d49adf3-4a70-4406-99ab-b6839473c177.png)
 
+AGGREGATE
 
+exp5 q(1) ![image](https://user-images.githubusercontent.com/113974992/191497317-25e1564c-9fc3-4f54-94d7-2d138d568c29.png)
+
+exp5 q(2) ![image](https://user-images.githubusercontent.com/113974992/191497357-a9bdb638-8f07-470f-bb18-4fd230b06449.png)
+
+exp5 q(3) ![image](https://user-images.githubusercontent.com/113974992/191497399-071b5b2b-d188-407d-83a2-c5a5a47ee7cf.png)
+
+exp5 q(4) ![image](https://user-images.githubusercontent.com/113974992/191497445-3097ba5b-52b8-406e-9ee5-5c706abb26e9.png)
+
+exp5 q(5) ![image](https://user-images.githubusercontent.com/113974992/191497473-1a74372b-2f48-4be4-b9df-3f89f6eb0e51.png)
+
+exp5 q(6) ![image](https://user-images.githubusercontent.com/113974992/191497518-32cfb92f-fdec-44a8-bf87-973a645859d5.png)
+
+exp5 q(7) ![image](https://user-images.githubusercontent.com/113974992/191497560-b0095dca-21a0-4729-bf92-30125aebf545.png)
