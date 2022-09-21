@@ -29,6 +29,9 @@ Exp2 q(4) ![image](https://user-images.githubusercontent.com/113974992/191311229
 
 Exp2 q(5) ![image](https://user-images.githubusercontent.com/113974992/191311353-6737cc36-5974-4768-bbc6-272da3ff7d5b.png)
 
+## EXPERIMENT 3
+[Experiment_3_queries](
+
 
 
 
