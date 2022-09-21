@@ -90,7 +90,7 @@ exp5 q(6) ![image](https://user-images.githubusercontent.com/113974992/191497518
 
 exp5 q(7) ![image](https://user-images.githubusercontent.com/113974992/191497560-b0095dca-21a0-4729-bf92-30125aebf545.png)
 
-##EXPERIMENT 6
+## EXPERIMENT 6
 [Experiment_6_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%206)
 
 [group by having]
