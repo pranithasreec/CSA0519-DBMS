@@ -183,4 +183,4 @@ exp10 q(1) ![image](https://user-images.githubusercontent.com/113974992/19151191
 ## EXPERIMENT 18
 [Experiment_18_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%2018)
 
-![image](https://user-images.githubusercontent.com/113974992/191699084-f8cf66be-25cf-4601-81b2-f7ee84012edf.png)
+![image](https://user-images.githubusercontent.com/113974992/191700048-65d8df7e-560c-48b9-b169-726309416760.png)
