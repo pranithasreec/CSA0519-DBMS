@@ -168,4 +168,6 @@ exp10 q(1) ![image](https://user-images.githubusercontent.com/113974992/19151191
 ![image](https://user-images.githubusercontent.com/113974992/191695162-c9582e1d-2204-416b-ac41-84a1342a89bc.png)
 ![image](https://user-images.githubusercontent.com/113974992/191695274-8bbb8615-1eba-4a65-b4d7-d9cfe52e99a7.png)
 
+## EXPERIMENT 16
+[Experiment_16_queries](
 
