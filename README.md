@@ -140,3 +140,6 @@ exp10 q(1) ![image](https://user-images.githubusercontent.com/113974992/19151191
 ![image](https://user-images.githubusercontent.com/113974992/191689692-36776093-23c4-41b0-b9ab-cec0ae82fc92.png)
 
 ![image](https://user-images.githubusercontent.com/113974992/191689980-0e04bca5-a68e-47da-9c7e-d7ca42f9a6b0.png)
+
+## EXPERIMENT 12
+[Experiment_12_queries](
