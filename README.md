@@ -180,3 +180,8 @@ exp10 q(1) ![image](https://user-images.githubusercontent.com/113974992/19151191
 
 ![image](https://user-images.githubusercontent.com/113974992/191697699-a12ed9c4-20c0-4582-88d6-b1ff16de3d4c.png)
 
+## EXPERIMENT 18
+[Experiment_18_queries](
+
+
+![image](https://user-images.githubusercontent.com/113974992/191699084-f8cf66be-25cf-4601-81b2-f7ee84012edf.png)
