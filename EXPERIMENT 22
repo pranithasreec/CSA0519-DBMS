@@ -1,0 +1,28 @@
+mysql> select dname,count(*) from employees e,department d where e.dno= d.dnumber group by d.dname having count(*)>=2;
++---------------+----------+
+| dname         | count(*) |
++---------------+----------+
+| research      |        3 |
+| adminstration |        2 |
++---------------+----------+
+2 rows in set (0.03 sec)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mysql> select fname,lname from employees where bdate between "1990-01-01" and "1990-12-30";
+Empty set (0.00 sec)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mysql> select fname,lname ,dname from employees join department where dno=dnumber;
++----------+---------+---------------+
+| fname    | lname   | dname         |
++----------+---------+---------------+
+| john     | smith   | research      |
+| franklin | wing    | research      |
+| alida    | zelaya  | adminstration |
+| jennifer | waface  | adminstration |
+| ramesh   | narayan | research      |
+| joyce    | english | headquarters  |
++----------+---------+---------------+
+6 rows in set (0.00 sec)
