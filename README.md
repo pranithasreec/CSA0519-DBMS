@@ -212,6 +212,11 @@ exp10 q(1) ![image](https://user-images.githubusercontent.com/113974992/19151191
 ![image](https://user-images.githubusercontent.com/113974992/191908375-185a3a54-5af4-4de3-bd55-54c9fad08487.png)
 
 ## EXPERIMENT 23
-[Experiment_23_queries](
+[Experiment_23_queries](https://github.com/pranithasreec/CSA0519-DBMS/blob/main/EXPERIMENT%2023)
+
+![image](https://user-images.githubusercontent.com/113974992/191908535-5986887a-7b0a-4a23-b7a7-016d214a5d10.png)
+
+## EXPERIMENT 24
+[Experiment_24_queries](
 
 
